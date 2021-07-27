@@ -8,12 +8,12 @@
 #include <WiFiUDP.h>
 #include <EEPROM.h>
 
-#define mqtt_server "mqtt1.gpstech.com.br"
-#define mqtt_port 1883
-#define mqtt_user "teste_gerson_pluvi"
-#define mqtt_password "1234"
-#define mqtt_client_id "teste_gerson_pluvi"
-#define Pluviometro "gerson/Gerson_teste/pluviometro"
+#define mqtt_server ""
+#define mqtt_port 
+#define mqtt_user ""
+#define mqtt_password ""
+#define mqtt_client_id ""
+#define Pluviometro ""
 
 
 const int REED = 14;              //The reed switch outputs to digital pin 9
